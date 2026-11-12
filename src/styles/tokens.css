@@ -1,0 +1,48 @@
+:root {
+  /* Paleta: Bosque */
+  --color-primary: #2B8A3E;
+  --color-secondary: #A9744F;
+  --color-background: #F4F8F2;
+  --color-text: #1E2A1D;
+
+  /* Placeholders de imagen: gris neutro fijo, sin color de marca */
+  --color-placeholder-bg: #E5E7EB;
+  --color-placeholder-icon: #9CA3AF;
+
+  /* Tipografía: Cálida */
+  --font-heading: 'Fraunces', serif;
+  --font-body: 'Work Sans', sans-serif;
+
+  --radius-card: 12px;
+  --radius-button: 24px;
+  --spacing-unit: 8px;
+
+  /* Responsive: mobile-first, centrado en este ancho en pantallas anchas */
+  --max-content-width: 1000px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-heading);
+}

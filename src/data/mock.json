@@ -1,0 +1,34 @@
+{
+  "rutas": [
+    {
+      "id": "cat-01",
+      "nombre": "Catamarán Lago — Tour panorámico",
+      "duracion": "2 horas",
+      "precio": 25000,
+      "horarios": ["10:00", "13:00", "16:00"],
+      "cuposPorHorario": 20,
+      "fotos": 3,
+      "descripcion": "Navegación panorámica por las bahías principales del lago, con vista a la cordillera y guía a bordo durante todo el recorrido."
+    },
+    {
+      "id": "lan-02",
+      "nombre": "Lancha río Valdivia — Recorrido histórico",
+      "duracion": "1 hora 30 minutos",
+      "precio": 18000,
+      "horarios": ["11:00", "14:30", "17:30"],
+      "cuposPorHorario": 12,
+      "fotos": 3,
+      "descripcion": "Recorrido por el río Valdivia frente a la costanera, con paradas frente a los fuertes españoles y relato de la historia de la ciudad."
+    },
+    {
+      "id": "kay-03",
+      "nombre": "Kayak guiado — Humedal río Cruces",
+      "duracion": "3 horas",
+      "precio": 30000,
+      "horarios": ["09:30", "15:00"],
+      "cuposPorHorario": 8,
+      "fotos": 2,
+      "descripcion": "Remada tranquila por el humedal del río Cruces, con guía especializado, equipo de seguridad incluido y observación de cisnes de cuello negro."
+    }
+  ]
+}
